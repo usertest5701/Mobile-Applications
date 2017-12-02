@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3348c2</color>
+    <color name="colorPrimaryDark">#3b3b3b</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="own">#cbd1ca</color>
+    <color name="red">#06a337</color>
+    <color name="record">#d6a859</color>
+    <color name="enter">#0003b3</color>
+
+</resources>

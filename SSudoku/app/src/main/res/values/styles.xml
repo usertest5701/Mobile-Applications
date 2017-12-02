@@ -1,0 +1,54 @@
+<resources>
+
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+</style>
+
+<style name="PrimaryFlatButton" parent="Theme.AppCompat.Light">
+    <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Borderless.Colored</item>
+    <item name="colorControlHighlight">@color/colorAccent</item>
+    <item name="colorAccent">@color/colorPrimary</item>
+</style>
+
+<style name="editText">
+    <item name="android:inputType">numberDecimal</item>
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:background">@drawable/border_style</item>
+    <item name="android:ems">10</item>
+    <item name="android:textColor">@color/enter</item>
+    <item name="android:maxLength">1</item>
+    <item name="android:selectAllOnFocus">true</item>
+</style>
+
+<style name="tableRowLow">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:baselineAligned">false</item>
+    <item name="android:orientation">vertical</item>
+</style>
+
+<style name="tableRowHigh">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:baselineAligned">false</item>
+    <item name="android:orientation">vertical</item>
+</style>
+
+<style name="tableLayout">
+    <item name="android:background">@drawable/border2_style</item>
+    <item name="android:layout_width">100dp</item>
+    <item name=" android:layout_height">wrap_content</item>
+</style>
+
+<style name="button">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:onClick">onLevel</item>
+</style>
+
+
+</resources>

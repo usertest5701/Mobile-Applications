@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/font"
+
+tools:context="maksatuly.example.rauan.rauan.GameActivity">
+
+<TableRow
+    android:id="@+id/tr1"
+    style="@style/tableRowHigh"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="80dp">
+
+    <TableLayout
+        style="@style/tableLayout">
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t11"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t12"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t13"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t21"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t22"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t23"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t31"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t32"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t33"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        style="@style/tableLayout">
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t14"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t15"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t16"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t24"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t25"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t26"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t34"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t35"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t36"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        style="@style/tableLayout">
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t17"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t18"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t19"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t27"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t28"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t29"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t37"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t38"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t39"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</TableRow>
+
+<TableRow
+    android:id="@+id/tr2"
+    style="@style/tableRowHigh"
+    android:layout_alignLeft="@+id/tr1"
+    android:layout_alignStart="@+id/tr1"
+    android:layout_below="@+id/tr1">
+
+    <TableLayout
+        style="@style/tableLayout">
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t41"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t42"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t43"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t51"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t52"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t53"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t61"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t62"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t63"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        style="@style/tableLayout">
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t44"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t45"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t46"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t54"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t55"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t56"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t64"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t65"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t66"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        style="@style/tableLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/t47"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t48"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t49"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/t57"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t58"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t59"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/t67"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t68"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t69"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</TableRow>
+
+<TableRow
+    android:id="@+id/tr3"
+    style="@style/tableRowHigh"
+    android:layout_below="@+id/tr2"
+    android:layout_alignLeft="@+id/tr2"
+    android:layout_alignStart="@+id/tr2">
+
+    <TableLayout
+        style="@style/tableLayout">
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t71"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t72"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t73"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t81"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t82"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t83"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t91"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t92"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t93"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        style="@style/tableLayout">
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t74"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t75"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t76"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t84"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t85"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t86"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t94"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t95"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t96"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        style="@style/tableLayout">
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t77"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t78"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t79"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t87"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t88"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t89"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowLow">
+
+            <EditText
+                android:id="@+id/t97"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t98"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/t99"
+                style="@style/editText"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</TableRow>
+
+<Button
+    android:id="@+id/start"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/tr3"
+    android:layout_alignStart="@+id/tr3"
+    android:layout_below="@+id/tr3"
+    android:layout_marginTop="76dp"
+    android:text="Start"
+    android:theme="@style/PrimaryFlatButton" />
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/start"
+    android:layout_alignBottom="@+id/start"
+    android:layout_alignEnd="@+id/tr3"
+    android:layout_alignRight="@+id/tr3"
+    android:text="Check"
+    android:theme="@style/PrimaryFlatButton" />
+
+<TextView
+    android:id="@+id/tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="40dp" />
+
+<TextView
+    android:id="@+id/timer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginEnd="26dp"
+    android:layout_marginRight="26dp"
+    android:layout_marginTop="13dp"
+    android:text="00:00" />
+
+</RelativeLayout>
+
+
+
+
+
