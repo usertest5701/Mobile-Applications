@@ -321,11 +321,6 @@ public class GameActivity extends AppCompatActivity {
             list.clear();
             for(int i = 1; i<= 9; i++) {
                 pop = Integer.parseInt(t[i][j].getText().toString());
-                if(list.contains(pop)) {
-                    positionOfError.add(i);
-                    positionOfError.add(j);
-                    return false;
-                }
                 list.add(pop);
 
             }
@@ -336,10 +331,6 @@ public class GameActivity extends AppCompatActivity {
     boolean checkFull(EditText[][] t) {
         for(int j = 1; j <= 9; j++) {
             list.clear();
-            for(int i = 1; i<= 9; i++) {
-                if(t[i][j].getText().toString().equals("")) {
-                    return false;
-                }
                 pop = Integer.parseInt(t[i][j].getText().toString());
                 list.add(pop);
 
@@ -353,7 +344,6 @@ public class GameActivity extends AppCompatActivity {
 
     void runTimer() {
         final TextView timer = (TextView) findViewById(R.id.timer);
-        final Handler handler = new Handler();
         handler.post(new Runnable() {
             @Override
             public void run() {
